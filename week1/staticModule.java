@@ -3,6 +3,10 @@ class Util {
          return a > b ? a : b;
      }
      static boolean inOrder(int a, int b, int c) {
-        return a < b && b < c;
+         return a < b && b < c;
+     }
+     static double min(double a, double b) {
+         double minimum = a >= b ? b : a;
+         return minimum;
      }
 }
